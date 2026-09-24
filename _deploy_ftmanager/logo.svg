@@ -1,0 +1,19 @@
+<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fußball-Hintergrund -->
+  <circle cx="80" cy="80" r="75" fill="#2c5aa0" stroke="#ee4565" stroke-width="4"/>
+  
+  <!-- Fußball-Muster (4 Sechsecke in alle Richtungen) -->
+  <path d="M80 20 L100 35 L100 55 L80 70 L60 55 L60 35 Z" fill="#ffffff" opacity="0.9"/>
+  <path d="M80 90 L100 105 L100 125 L80 140 L60 125 L60 105 Z" fill="#ffffff" opacity="0.9"/>
+  <path d="M20 80 L35 60 L55 60 L70 80 L55 100 L35 100 Z" fill="#ffffff" opacity="0.9"/>
+  <path d="M100 80 L115 60 L135 60 L150 80 L135 100 L115 100 Z" fill="#ffffff" opacity="0.9"/>
+  
+  <!-- Eigener Kreis für "Rw" in der Mitte -->
+  <circle cx="80" cy="80" r="35" fill="#ffffff" stroke="#2c5aa0" stroke-width="2"/>
+  
+  <!-- Initialen "Rw" im weißen Kreis -->
+  <text x="80" y="88" font-family="Verdana, Geneva, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#2c5aa0">Rw</text>
+  
+  <!-- Zusätzliche Akzente -->
+  <circle cx="80" cy="80" r="60" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.3"/>
+</svg>

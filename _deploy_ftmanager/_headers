@@ -1,0 +1,11 @@
+# Android-Paket korrekt ausliefern (sonst octet-stream)
+/FtvRw_1_1.0.apk
+  Content-Type: application/vnd.android.package-archive
+
+# TMS-Build hat keinen Versions-Hash im Namen -> kurz cachen,
+# damit Updates bei den Nutzern auch wirklich ankommen
+/app/Project1.js
+  Cache-Control: public, max-age=3600
+
+/app/Unit1.html
+  Cache-Control: public, max-age=3600

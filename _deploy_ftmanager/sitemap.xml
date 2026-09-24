@@ -1,0 +1,58 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <!-- Hauptseite -->
+  <url>
+    <loc>https://ftmanager.de/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Hinweis: Externe Domains (z. B. rwwertec.de) sind in dieser Sitemap nicht enthalten, da nur URLs der Property ftmanager.de erlaubt sind. -->
+  
+  <!-- Web-App (TMS Web Core) -->
+  <url>
+    <loc>https://ftmanager.de/app/</loc>
+    <lastmod>2026-09-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- PDF-Download -->
+  <url>
+    <loc>https://ftmanager.de/Beschreibung.pdf</loc>
+    <lastmod>2026-09-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Android App Download -->
+  <url>
+    <loc>https://ftmanager.de/FtvRw_1_1.0.apk</loc>
+    <lastmod>2026-09-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Logo/Branding -->
+  <url>
+    <loc>https://ftmanager.de/logo.svg</loc>
+    <lastmod>2026-09-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <!-- Demo Screenshot -->
+  <url>
+    <loc>https://ftmanager.de/cardrw.png</loc>
+    <lastmod>2026-09-23</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+</urlset>

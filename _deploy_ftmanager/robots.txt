@@ -1,0 +1,38 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ftmanager.de/sitemap.xml
+
+# Crawl-delay für freundliches Crawling
+Crawl-delay: 1
+
+# Spezifische Anweisungen für verschiedene Bots
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Blockiere nicht relevante Verzeichnisse (falls vorhanden)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /*.log$
+Disallow: /*.tmp$
+
+# Erlaube wichtige Dateien
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.pdf
+Allow: /*.apk
