@@ -1,0 +1,6 @@
+# TMS-Build ohne Versions-Hash -> kurz cachen, damit Updates ankommen
+/Project1.js
+  Cache-Control: public, max-age=3600
+
+/Unit1.html
+  Cache-Control: public, max-age=3600
